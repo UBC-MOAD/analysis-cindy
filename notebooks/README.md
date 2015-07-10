@@ -2,8 +2,8 @@
 
 The links below are to static renderings of the notebooks via nbviewer.ipython.org. Descriptions below the links are from the first cell of the notebooks (if that cell contains Markdown or raw text).
 
-* ##[[parameterization]Version4_Pa.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/17affbf838400290bc8854c652633e96dad44970/Cindy%20Yu/%5Bparameterization%5DVersion4_Pa.ipynb)
-* ##[[parameterization]Version4_Th.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/17affbf838400290bc8854c652633e96dad44970/Cindy Yu/[parameterization]Version4_Th.ipynb)
+
+* ##[[parameterization]Version4_Th.ipynb](http://nbviewer.jupyter.org/urls//bitbucket.org/ccar-modeling/analysis/raw/a18de23aea408b3e550b15a3d0c00216857da5e4/Cindy Yu/[parameterization]Version4_Th.ipynb)
 
 
 * ##[[initial_condition]Horizontal interpolation1.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/562590f8b81ffedc4ecddeaef4455079afcc8f63/Cindy%20Yu/%5Binitial_condition%5DHorizontal%20interpolation1.ipynb)
