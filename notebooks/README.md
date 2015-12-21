@@ -20,4 +20,5 @@ The links below are to static renderings of the notebooks via nbviewer.ipython.o
 
 * ##[[initial_condition]ratio.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/b0f492b9ad588358305425ed798ab21ea926b733/Cindy Yu/ANHA_initial/initialPaTh_field.ipynb)
 
-
+##add two more tracers in the model to simulate the imaginary particles
+* ##[[six_tracers.ipynb]](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/9da37ff1e2f94b026a51d7b553ff575c685e41cf/Cindy Yu/ANHA4-result/Anormal_at_bottom/six_tracers.ipynb)
