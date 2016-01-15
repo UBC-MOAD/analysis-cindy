@@ -27,4 +27,8 @@ The links below are to static renderings of the notebooks via nbviewer.ipython.o
 
 * ##[[Addbbc_Testbbc.ipynb]](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/34afaf45d380f748780516bf66eff24027562176/Cindy%20Yu/ANHA4-result/Add_bbc_for_tracers/Addbbc_Testbbc.ipynb)
 
-* ##[[Investigate_bottom_layers.ipynb]](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/34afaf45d380f748780516bf66eff24027562176/Cindy%20Yu/ANHA4-result/Add_bbc_for_tracers/Investigate_bottom_layers.ipynb)
+* ##[[Addbbc_Result_20020101_6h.ipynb]](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/fa6d47b82dbecaf1e6d83f3442f4905d0a06a89a/Cindy%20Yu/ANHA4-result/Add_bbc_for_tracers/Addbbc_Result_20020101_6h.ipynb)
+
+* ##[[Investigate_bottom_layers.ipynb]](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/db839dfd8ef99af93d07f70af33f28b2956a50f1/Cindy%20Yu/ANHA4-result/Add_bbc_for_tracers/Investigate_bottom_layers.ipynb)
+
+
