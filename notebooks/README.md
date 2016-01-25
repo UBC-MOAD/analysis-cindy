@@ -32,3 +32,4 @@ The links below are to static renderings of the notebooks via nbviewer.ipython.o
 * ##[[Investigate_bottom_layers.ipynb]](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/ANHA4-result/Add_bbc_for_tracers/Investigate_bottom_layers.ipynb)
 
 * ##[[check_mesh_mask.ipynb]](http://nbviewer.jupyter.org/url/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/ANHA4-result/Add_bbc_for_tracers/check_mesh_mask.ipynb)
+(http://nbviewer.jupyter.org/url/bitbucket.org/ccar-modeling/analysis/raw/4a6d65898f314bad5967d3afbdb7d2f6d187272c/Cindy%20Yu/ANHA4-result/Add_bbc_for_tracers/check_mesh_mask.ipynb)
