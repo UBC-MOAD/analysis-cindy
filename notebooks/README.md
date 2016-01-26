@@ -33,3 +33,13 @@ The links below are to static renderings of the notebooks via nbviewer.ipython.o
 
 * ##[[check_mesh_mask.ipynb]](http://nbviewer.jupyter.org/url/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/ANHA4-result/Add_bbc_for_tracers/check_mesh_mask.ipynb)
 (http://nbviewer.jupyter.org/url/bitbucket.org/ccar-modeling/analysis/raw/4a6d65898f314bad5967d3afbdb7d2f6d187272c/Cindy%20Yu/ANHA4-result/Add_bbc_for_tracers/check_mesh_mask.ipynb)
+
+
+##add tmask at trcsms_my_trc.F90
+
+* ##[[Top+Horiz_view.ipynb]](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/ANHA4-result/Add_tmask_in_trcsms/Top+Horiz_view.ipynb)
+This notebook displays model output from the run with tmask added in trcsms_my_trc.F90.
+
+
+* ##[[mesh_mask_plot.ipynb]](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/ANHA4-result/Add_tmask_in_trcsms/mesh_mask_plot.ipynb)
+This notebook displays vertical tracer profiles with w and t grid lines.
