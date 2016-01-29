@@ -47,3 +47,6 @@ This notebook displays model output from the run with tmask added in trcsms_my_t
 
 * ##[[mesh_mask_plot.ipynb]](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/ANHA4-result/Add_tmask_in_trcsms/mesh_mask_plot.ipynb) 
 This notebook displays vertical tracer profiles with w and t grid lines.
+
+* ##[[C-grid.ipynb]](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/ANHA4-result/Add_tmask_in_trcsms/C-grid.ipynb)
+This notebook explores the structure of c-grid. 
