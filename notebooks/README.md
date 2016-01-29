@@ -35,10 +35,11 @@ The offline model was run for 1 day with bbc added into trcnxt.F90. This noteboo
 * ##[[Investigate_bottom_layers.ipynb]](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/ANHA4-result/Add_bbc_for_tracers/Investigate_bottom_layers.ipynb)
  Plot tracer field, imaginary ice, sinking rate, absorption rates from my model along with u,v,w,eddy coeff,s,t from Xianmin's output.
 
-* ##[[check_mesh_mask.ipynb]](http://nbviewer.jupyter.org/url/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/ANHA4-result/Add_bbc_for_tracers/check_mesh_mask.ipynb) This notebook aims at taking a look at the grids at bottom layers in order to fix this problem.
+* ##[[check_mesh_mask.ipynb]](http://nbviewer.jupyter.org/url/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/ANHA4-result/Add_bbc_for_tracers/check_mesh_mask.ipynb) 
+This notebook aims at taking a look at the grids at bottom layers in order to fix this problem.
 
 
-##Add tmask at trcsms_my_trc.F90
+##Add tmask in trcsms_my_trc.F90
 
 * ##[[Top+Horiz_view.ipynb]](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/ANHA4-result/Add_tmask_in_trcsms/Top+Horiz_view.ipynb) 
 This notebook displays model output from the run with tmask added in trcsms_my_trc.F90.
