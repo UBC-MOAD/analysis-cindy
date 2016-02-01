@@ -50,3 +50,10 @@ This notebook displays vertical tracer profiles with w and t grid lines.
 
 * ##[[C-grid.ipynb]](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/ANHA4-result/Add_tmask_in_trcsms/C-grid.ipynb)
 This notebook explores the structure of c-grid. 
+
+
+## Change bahty. (fse3t)
+
+* ##[[Horizontal+Time-quick-test.ipynb]](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/ANHA4-result/Change_bahty_fse3t_based/Horizontal+Time-quick-test.ipynb)
+
+
