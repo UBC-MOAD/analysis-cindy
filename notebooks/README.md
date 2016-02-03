@@ -18,6 +18,11 @@ The links below are to static renderings of the notebooks via nbviewer.ipython.o
 
 * ##[[initial_condition]ratio.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/b0f492b9ad588358305425ed798ab21ea926b733/Cindy Yu/ANHA_initial/initialPaTh_field.ipynb)
 
+
+##Change mask_mesh in Canada Basin
+
+* ##[[mesh_mask]First_change.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/ANHA4-result/Anormal_at_bottom/1_change_mask_mesh%28magic!%29.ipynb?at=default&fileviewer=file-view-default)
+
 ##Add two more tracers in the model to simulate the imaginary particles
 * ##[[six_tracers_tracer_plots.ipynb]](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/a6b543f800f1a62a713193ef0f59ebb264e89874/Cindy Yu/ANHA4-result/Anormal_at_bottom/six_tracers_tracer_plots.ipynb)
 
