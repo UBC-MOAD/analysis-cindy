@@ -59,6 +59,8 @@ This notebook explores the structure of c-grid.
 
 ## Change bahty. (fse3t)
 
+* ##[[mesh_mask.ipynb]](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/ANHA4-result/Change_bahty_fse3t_based/mesh_mask_fse3t.ipynb)
+
 * ##[[Horizontal+Time-quick-test.ipynb]](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/ANHA4-result/Change_bahty_fse3t_based/Horizontal+Time-quick-test.ipynb)
 
 
