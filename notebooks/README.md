@@ -67,3 +67,6 @@ This notebook explored the model output in the first two year.(2002-2003)
 
 * ##[[Horizontal+Time-from2002to5.ipynb]](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/ANHA4-result/Change_bahty_fse3t_based/Horizontal+Time-from2002to5.ipynb)
 This notebook investigates our model outputs from 2002 to 2005.
+
+* ##[[Horizontal+Time-2002x4.ipynb]](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/ANHA4-result/Change_bahty_fse3t_based/Horizontal+Time-2002x4.ipynb)
+Forced by the dynamics in 2002, the model was run for 4 years.This notebook displays the results. According to the result, we can see something is wrong when the model restarted. (TR_11 and TR_12 can not be read properly - their init. values were zero according to ocean.output. The next thing to do is fix this problem.)
