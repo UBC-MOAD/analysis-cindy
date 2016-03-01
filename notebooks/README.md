@@ -70,3 +70,8 @@ This notebook investigates our model outputs from 2002 to 2007.
 
 * ##[[Horizontal+Time-2002x4.ipynb]](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/ANHA4-result/Change_bahty_fse3t_based/Horizontal+Time-2002x4.ipynb)
 Forced by the dynamics in 2002, the model was run for 4 years.This notebook displays the results. According to the result, we can see something is wrong when the model restarted. (TR_11 and TR_12 can not be read properly - their init. values were zero according to ocean.output. The next thing to do is fix this problem.)
+
+
+## Tools
+* ##[[Test_py]Spatially_subsetted_data.ipynb]((http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/[Test_py]Spatially_subsetted_data.ipynb)
+Our model results are huge! 6G for one year. Therefore, it is useful to develop a function to get rid of the useless part to save space. This notebook tests that fuction.
