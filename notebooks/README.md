@@ -8,9 +8,9 @@ The links below are to static renderings of the notebooks via nbviewer.ipython.o
 
 ## Parameterization
 
-* ##[[parameterization]Pa.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/b0f492b9ad588358305425ed798ab21ea926b733/Cindy Yu/[parameter.]Pa.ipynb)
+* ##[[parameterization]Pa.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/[parameter.]Pa.ipynb)
 
-* ##[[parameterization]Th.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/b0f492b9ad588358305425ed798ab21ea926b733/Cindy Yu/[parameter.]Th.ipynb)
+* ##[[parameterization]Th.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/[parameter.]Th.ipynb)
 
 
 
