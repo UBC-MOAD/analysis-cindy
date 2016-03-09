@@ -6,6 +6,14 @@ The links below are to static renderings of the notebooks via nbviewer.ipython.o
 
 * ##[ [ORCA_offline]TestMytrc.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/fd8ee7611eb3e0e6d6f2281a31c88ba97ab1e1c0/Cindy Yu/[ORCA_offline]TestMytrc.ipynb)
 
+## Parameterization
+
+* ##[[parameterization]Pa.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/b0f492b9ad588358305425ed798ab21ea926b733/Cindy Yu/[parameter.]Pa.ipynb)
+
+* ##[[parameterization]Th.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/b0f492b9ad588358305425ed798ab21ea926b733/Cindy Yu/[parameter.]Th.ipynb)
+
+
+
 ##Initial field for 231Pa, 230Th and their ratio
 
 * ##[[initial_condition]ANHA_part_Pa.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/b0f492b9ad588358305425ed798ab21ea926b733/Cindy Yu/ANHA_initial/[initial_condition]ANHA_part_Pa.ipynb)
