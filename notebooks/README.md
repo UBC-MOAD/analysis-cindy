@@ -12,6 +12,7 @@ The links below are to static renderings of the notebooks via nbviewer.ipython.o
 
 * ##[[parameterization]Th.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/[parameter.]Th.ipynb)
 
+* ##[[ice_Conc_info.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/ice_Conc_info.ipynb)
 
 
 ##Initial field for 231Pa, 230Th and their ratio
@@ -70,8 +71,6 @@ This notebook explores the structure of c-grid.
 * ##[[mesh_mask.ipynb]](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/ANHA4-result/Change_bahty_fse3t_based/mesh_mask_fse3t.ipynb)
 This notebook shows the grids that are masked (delta z smaller than 100m)
 
-* ##[[Horizontal+Time-quick-test.ipynb]](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/ANHA4-result/Change_bahty_fse3t_based/Horizontal+Time-quick-test.ipynb)
-This notebook explored the model output in the first two year.(2002-2003)
 
 * ##[[Horizontal+Time-from2002to7.ipynb]](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/ANHA4-result/Change_bahty_fse3t_based/Horizontal+Time-from2002to7.ipynb)
 This notebook investigates our model outputs from 2002 to 2007.
@@ -80,12 +79,11 @@ This notebook investigates our model outputs from 2002 to 2007.
 Forced by the dynamics in 2002, the model was run for 6 years.This notebook displays the results. (Previous problem that TR_11 and TR_12 can not be read properly is solved in this notebook.)
 
 
-
-* ##[Evaluation1.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/ANHA4-result/Change_bahty_fse3t_based/Evaluation-from2002to7.ipynb)
+* ##[Evaluation1.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/ANHA4-result/Change_bahty_fse3t_based/Evaluation-05.ipynb)
 The data for evaluation is on the Alpha ridge and was collected in 2005.
 
 
-* ##[Evaluation2.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/ANHA4-result/Change_bahty_fse3t_based/Evaluation2.ipynb)
+* ##[Evaluation2.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/ANHA4-result/Change_bahty_fse3t_based/Evaluation-0709.ipynb)
 The data for evaluation is at the edge of south-east Canada Basin. The lables of those stations are L1.1/L2/L3 in August 2009 and KC 500-2007/KC 2000-2007/KC 2700-2007 in summer of 2007.
 
 
