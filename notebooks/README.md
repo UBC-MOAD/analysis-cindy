@@ -19,8 +19,10 @@ The links below are to static renderings of the notebooks via nbviewer.ipython.o
 
 This notebook used a different fitting method in investing the tracer profiles. In previous notebook, we solved the pde and use the steady state analytical solution to fit the line. However, in this notebook I solved the pde matrix directly. (This method is not as good as I expected. It gives negative values if 'bad' data points are not removed.)
 
+* ##[[Vertical_230Th.ipynb]](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/Vertical_230Th.ipynb)
+The thorium profiles are assorted by basin. 
 
-* ##[[ice_Conc_info.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/ice_Conc_info.ipynb)
+* ##[[ice_Conc_info.ipynb]](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/ice_Conc_info.ipynb)
 
 
 ##Initial field for 231Pa, 230Th and their ratio
