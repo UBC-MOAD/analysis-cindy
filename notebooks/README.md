@@ -6,7 +6,7 @@ The links below are to static renderings of the notebooks via nbviewer.ipython.o
 
 * ##[ [ORCA_offline]TestMytrc.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/fd8ee7611eb3e0e6d6f2281a31c88ba97ab1e1c0/Cindy Yu/[ORCA_offline]TestMytrc.ipynb)
 
-## Parameterization
+## Parameterization (related to ice)
 
 * ##[[parameterization]Pa.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/[parameter.]Pa.ipynb)
 
@@ -21,11 +21,17 @@ This notebook used a different fitting method in investing the tracer profiles. 
 
 * ##[[Vertical_231Pa.ipynb]](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/Vertical_231Pa.ipynb)
 * ##[[Vertical_230Th.ipynb]](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/Vertical_230Th.ipynb)
-The thorium and Pa profiles are assorted by basin. The ice used to calculate analytical solution at the last two cells can be found in [HorizontalProfile+TimeSeries.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu//ANHA4-result/MIN_ICE/HorizontalProfile+TimeSeries.ipynb)
+The thorium and Pa profiles are assorted by basin. The ice used to calculate analytical solution at the last two cells can be found in [HorizontalProfile+TimeSeries.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/ANHA4-result/MIN_ICE/HorizontalProfile+TimeSeries.ipynb)
 
 
 
 * ##[[ice_Conc_info.ipynb]](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/ice_Conc_info.ipynb)
+
+
+
+## Parameterization (related to Chl)
+
+* ##[[Chl.ipynb]](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/Chl.ipynb)
 
 
 ##Initial field for 231Pa, 230Th and their ratio
