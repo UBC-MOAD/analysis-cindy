@@ -24,14 +24,17 @@ This notebook used a different fitting method in investing the tracer profiles. 
 The thorium and Pa profiles are assorted by basin. The ice used to calculate analytical solution at the last two cells can be found in [HorizontalProfile+TimeSeries.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/ANHA4-result/MIN_ICE/HorizontalProfile+TimeSeries.ipynb)
 
 
-
 * ##[[ice_Conc_info.ipynb]](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/ice_Conc_info.ipynb)
 
 
 
 ## Parameterization (related to Chl)
 
-* ##[[Chl.ipynb]](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/Chl.ipynb)
+* ##[[Ariane_particle_tracking.ipynb]](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/Ariane/Ariane_particle_tracking.ipynb)
+This notebook displays the backward particle trajectories. The starting points were the sample locations.
+
+* ##[[Chl.ipynb]](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/para_chl/Chl.ipynb)
+This notebook presents the chl field in 1983 from ANHA4-ENG3.
 
 
 ##Initial field for 231Pa, 230Th and their ratio
