@@ -24,7 +24,9 @@ This notebook used a different fitting method in investing the tracer profiles. 
 The thorium and Pa profiles are assorted by basin. The ice used to calculate analytical solution at the last two cells can be found in [HorizontalProfile+TimeSeries.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/ANHA4-result/MIN_ICE/horizontalProfile+TimeSeries.ipynb)
 
 
-* ##[[ice_Conc_info.ipynb]](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/ice_Conc_info.ipynb)
+
+## Investigate ice dataset
+* ##[[ice_Conc_info.ipynb]](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/ice_info/ice_Conc_info.ipynb)
 
 
 
