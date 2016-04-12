@@ -19,8 +19,8 @@ The links below are to static renderings of the notebooks via nbviewer.ipython.o
 
 This notebook used a different fitting method in investing the tracer profiles. In previous notebook, we solved the pde and use the steady state analytical solution to fit the line. However, in this notebook I solved the pde matrix directly. (This method is not as good as I expected. It gives negative values if 'bad' data points are not removed.)
 
-* ##[[Vertical_231Pa.ipynb]](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/Vertical_231Pa.ipynb)
-* ##[[Vertical_230Th.ipynb]](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/Vertical_230Th.ipynb)
+* ##[[Vertical_231Pa.ipynb]](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/para_MinIce/Vertical_231Pa.ipynb)
+* ##[[Vertical_230Th.ipynb]](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/para_MinIce/Vertical_230Th.ipynb)
 The thorium and Pa profiles are assorted by basin. The ice used to calculate analytical solution at the last two cells can be found in [HorizontalProfile+TimeSeries.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/ANHA4-result/MIN_ICE/horizontalProfile+TimeSeries.ipynb)
 
 
