@@ -27,7 +27,15 @@ The thorium and Pa profiles are assorted by basin. The ice used to calculate ana
 
 ## Investigate ice dataset
 * ##[[ice_Conc_info.ipynb]](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/ice_info/ice_Conc_info.ipynb)
+* ##[[Ice-record-1958-2014.ipynb]](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/ice_info/Ice-record-1958-2014.ipynb)
+The data displayed in this notebook is from noaa dataset with [the bootstrap algorithm](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/ice_info/ice_Conc_nasa.ipynb) and from [the Walsh dataset](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/ice_info/ice_Conc_TheWalsh.ipynb).
 
+* ##[[post1978-regrid.ipynb]](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/ice_info/post1978-regird.ipynb)
+* ##[[pre1978-regrid.ipynb]](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/ice_info/pre1978-regrid.ipynb)
+
+## Parameterization (related to Minimum Ice)
+* ##[[231Pa.ipynb]](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/para_MinIce/WhichIsTheBetterWay_231Pa-Copy1.ipynb)
+* ##[[230Th.ipynb]](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/para_MinIce/WhichIsTheBetterWay_230Th-Copy1.ipynb)
 
 
 ## Parameterization (related to Chl)
