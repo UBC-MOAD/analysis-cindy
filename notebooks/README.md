@@ -6,6 +6,21 @@ The links below are to static renderings of the notebooks via nbviewer.ipython.o
 
 * ##[ [ORCA_offline]TestMytrc.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/fd8ee7611eb3e0e6d6f2281a31c88ba97ab1e1c0/Cindy Yu/[ORCA_offline]TestMytrc.ipynb)
 
+##Initial field for 231Pa, 230Th and their ratio
+
+* ##[[initial_condition]ANHA_part_Pa.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/b0f492b9ad588358305425ed798ab21ea926b733/Cindy Yu/ANHA_initial/[initial_condition]ANHA_part_Pa.ipynb)
+
+* ##[[initial_condition]ANHA_diss_Pa.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/b0f492b9ad588358305425ed798ab21ea926b733/Cindy Yu/ANHA_initial/[initial_condition]ANHA_diss_Pa.ipynb)
+
+* ##[[initial_condition]ANHA_part_Th.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/0bb31ff77d094907c0901d01481fd98f10b0f8f9/Cindy Yu/ANHA_initial/[initial_condition]ANHA_part_Pa.ipynb)
+
+* ##[[initial_condition]ANHA_diss_Th.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/0bb31ff77d094907c0901d01481fd98f10b0f8f9/Cindy Yu/ANHA_initial/[initial_condition]ANHA_diss_Th.ipynb)
+
+* ##[[initial_condition]ratio.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/b0f492b9ad588358305425ed798ab21ea926b733/Cindy Yu/ANHA_initial/initialPaTh_field.ipynb)
+
+
+
+
 ## Parameterization (related to ice)
 
 * ##[[parameterization]Pa.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/[parameter.]Pa.ipynb)
@@ -25,6 +40,7 @@ The thorium and Pa profiles are assorted by basin. The ice used to calculate ana
 
 
 
+
 ## Investigate ice dataset
 * ##[[ice_Conc_info.ipynb]](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/ice_info/ice_Conc_info.ipynb)
 * ##[[Ice-record-1958-2014.ipynb]](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/ice_info/Ice-record-1958-2014.ipynb)
@@ -33,31 +49,22 @@ The data displayed in this notebook is from noaa dataset with [the bootstrap alg
 * ##[[post1978-regrid.ipynb]](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/ice_info/post1978-regird.ipynb)
 * ##[[pre1978-regrid.ipynb]](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/ice_info/pre1978-regrid.ipynb)
 
-## Parameterization (related to Minimum Ice)
+## Parameterization (related to summer Ice)
 * ##[[231Pa.ipynb]](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/para_MinIce/WhichIsTheBetterWay_231Pa-Copy1.ipynb)
 * ##[[230Th.ipynb]](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/para_MinIce/WhichIsTheBetterWay_230Th-Copy1.ipynb)
 
 
-## Parameterization (related to Chl)
+
+
+## Ariane & 1D model
+* ##[[1d-model.ipynb]](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/1D/1d-model.ipynb)
 
 * ##[[Ariane_particle_tracking.ipynb]](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/Ariane/Ariane_particle_tracking.ipynb)
 This notebook displays the backward particle trajectories. The starting points were the sample locations.
 
-* ##[[Chl.ipynb]](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/para_chl/Chl.ipynb)
-This notebook presents the chl field in 1983 from ANHA4-ENG3.
 
 
-##Initial field for 231Pa, 230Th and their ratio
 
-* ##[[initial_condition]ANHA_part_Pa.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/b0f492b9ad588358305425ed798ab21ea926b733/Cindy Yu/ANHA_initial/[initial_condition]ANHA_part_Pa.ipynb)
-
-* ##[[initial_condition]ANHA_diss_Pa.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/b0f492b9ad588358305425ed798ab21ea926b733/Cindy Yu/ANHA_initial/[initial_condition]ANHA_diss_Pa.ipynb)
-
-* ##[[initial_condition]ANHA_part_Th.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/0bb31ff77d094907c0901d01481fd98f10b0f8f9/Cindy Yu/ANHA_initial/[initial_condition]ANHA_part_Pa.ipynb)
-
-* ##[[initial_condition]ANHA_diss_Th.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/0bb31ff77d094907c0901d01481fd98f10b0f8f9/Cindy Yu/ANHA_initial/[initial_condition]ANHA_diss_Th.ipynb)
-
-* ##[[initial_condition]ratio.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/b0f492b9ad588358305425ed798ab21ea926b733/Cindy Yu/ANHA_initial/initialPaTh_field.ipynb)
 
 
 ##Change mask_mesh in Canada Basin
