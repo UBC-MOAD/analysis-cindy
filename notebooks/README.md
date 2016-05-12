@@ -58,6 +58,7 @@ The data displayed in this notebook is from noaa dataset with [the bootstrap alg
 
 ## Ariane & 1D model
 * ##[[1d-model.ipynb]](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/1D/1d-model.ipynb)
+* ##[[1d-sink.ipynb]](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/1D/1d-sink.ipynb)
 
 * ##[[Ariane_particle_tracking.ipynb]](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/Ariane/Ariane_particle_tracking.ipynb)
 This notebook displays the backward particle trajectories. The starting points were the sample locations.
