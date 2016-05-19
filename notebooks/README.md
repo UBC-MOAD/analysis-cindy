@@ -64,6 +64,8 @@ The data displayed in this notebook is from noaa dataset with [the bootstrap alg
 This notebook displays the backward particle trajectories. The starting points were the sample locations.
 
 
+* ##[[Ariane_particle_tracking_sinking.ipynb]](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/Ariane/Ariane_particle_tracking_sinking.ipynb)
+This notebook displays the forward particle trajectories, with an extra sinking velocity 1000m/y.
 
 
 
