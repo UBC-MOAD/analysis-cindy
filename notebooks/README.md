@@ -132,6 +132,7 @@ The data for evaluation is at the edge of south-east Canada Basin. The lables of
 
 * ##[ENG3-results_2002-2008.ipynb (intercept run)](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/ANHA4-result/MIN_ICE/ENG3-results_2002-2008.ipynb)
 * ##[ENG3-results_1968-2008.ipynb (intercept run)](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/ANHA4-result/MIN_ICE/nanaRun-results-analysis.ipynb)
+* ##[velocity_field.ipynb (intercept run)](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/ANHA4-result/MIN_ICE/velocity_field.ipynb)
 
 ===============================================================
 ## Tools
