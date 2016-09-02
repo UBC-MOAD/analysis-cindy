@@ -140,7 +140,7 @@ This notebook explore the time series from the summer ice run.
 
 ## long ENG3 Run
 
-ps. The advantage of ENG3 run is that its period is long enought. However, we have to admit that its velocity profiles are the worse among the four runs. The circulation changed its direction in 1970s.. Accoring to previous researches, the change in velocity is not happening until 2004.
+ps. The advantage of ENG3 run is that its period is longer than EXH00 series. However, we have to admit that its velocity profiles are the worst among the four runs. In ENG3, the circulation changed its direction in 1970s but according to previous researches, the change in velocity is not happening until 2004.
 
 * ##[velocity_field-ENG3&4.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/ANHA4-result/ENG3Run/velocity_field-Comparison.ipynb)
 Take a look at the velocity field in ENG3 (1958-2008) and ENG4(2002-2014). Result shows that they are all too fast. Keep in mind that the velocity is not that real compare to current meters. This velocity field will be strongly affect our tracer result.
