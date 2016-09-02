@@ -55,7 +55,6 @@ The data displayed in this notebook is from noaa dataset with [the bootstrap alg
 
 
 
-
 ## Ariane & 1D model
 * ##[[1d-model.ipynb]](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/1D/1d-model.ipynb)
 * ##[[1d-sink.ipynb]](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/1D/1d-sink.ipynb)
@@ -130,11 +129,36 @@ The data for evaluation is at the edge of south-east Canada Basin. The lables of
 
 ## summer ice
 
-* ##[ENG3-results_2002-2008.ipynb (intercept run)](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/ANHA4-result/MIN_ICE/ENG3-results_2002-2008.ipynb)
+Switch from monthly ice to summer ice (September ice)
 * ##[ENG3-results_1968-2008.ipynb (intercept run)](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/ANHA4-result/MIN_ICE/nanaRun-results-analysis.ipynb)
-* ##[velocity_field.ipynb (intercept run)](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/ANHA4-result/MIN_ICE/velocity_field.ipynb)
-* ##[velocity_field-Comparison.ipynb (intercept run)](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/ANHA4-result/MIN_ICE/velocity_field-Comparison.ipynb)
+Take a rough look at the results.
+
 * ##[time_series.ipynb (intercept run)](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/ANHA4-result/MIN_ICE/time_series.ipynb)
+This notebook explore the time series from the summer ice run.
+
+
+
+## long ENG3 Run
+
+ps. The advantage of ENG3 run is that its period is long enought. However, we have to admit that its velocity profiles are the worse among the four runs. The circulation changed its direction in 1970s.. Accoring to previous researches, the change in velocity is not happening until 2004.
+
+* ##[velocity_field-ENG3&4.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/ANHA4-result/ENG3Run/velocity_field-Comparison.ipynb)
+Take a look at the velocity field in ENG3 (1958-2008) and ENG4(2002-2014). Result shows that they are all too fast. Keep in mind that the velocity is not that real compare to current meters. This velocity field will be strongly affect our tracer result.
+
+* ##[velocity_field-EXH001&5.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/ANHA4-result/ENG3Run/velocity_field-Comparison-EXH005.ipynb)
+Take another look at the velocity field in EXH001 and EXH005 (2002-2013). EXH001 sees the change in intermediate layer but EXH005 is not showing any change in circulation directon. 
+
+* ##[T&S-Comparison.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/ANHA4-result/ENG3Run/sal_temp_comparison-EXH005.ipynb)
+Take a look at the salinity and temperature field. (EXH00 vs ENG). All the runs are not prefect but comparing to ENG series, EXH00 series are much better in reproducing t and s.
+
+* ##[ENG3-horizontal.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/ANHA4-result/ENG3Run/thesis-Base-Runs.ipynb)
+Horizontal tracer distributions. The notebook shows 3 different stages.
+
+* ##[ENG3-hovmoller.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/ANHA4-result/ENG3Run/thesis-hovmoller-round2.ipynb)
+This notebook shows how the tracer changes while velocity changes. Can see a correlation from the result. 
+
+* ##[ENG3-sensitivity.ipynb](http://nbviewer.jupyter.org/urls/bitbucket.org/ccar-modeling/analysis/raw/tip/Cindy%20Yu/ANHA4-result/ENG3Run/thesis-sensitivity.ipynb)
+This notebook shows some sensitivity experiment results. (Still not understand why Th takes 20 years to reach its maximum..) 
 
 ===============================================================
 ## Tools
