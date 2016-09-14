@@ -45,11 +45,13 @@ def section(x0,y0,length,xi,yi):
     a = [] #index for the first dimension
     b = [] #index for the second dimension
     for i in range (length):
-        a.append(x_lon[x0 + xi*i,y0 + yi*i])
-        b.append(y_lat[x0 + xi*i,y0 + yi*i])
-    return a,b
+        a.append(int(x0 + xi*i))
+        b.append(int(y0 + yi*i))
+    lon = x_lon[a,b]
+    lat = y_lat[a,b]
+    return a,b, lat,lon
 
-def section_hovmoller(data,layer,x0,y0,length,xi,yi):
+def section_hovmoller(indexa,indexb,data,layer,tmask, nav_lon):
     '''load data for vertical profiles, return to tracer/cooridination 
      ================================================================
      
@@ -70,16 +72,12 @@ def section_hovmoller(data,layer,x0,y0,length,xi,yi):
                  (If choose floats, index could be floats as well but it will Round to nearest integer)
 
     '''
-    a = np.empty([yearnum,length]);  # array to hold cross-section data over the model period
-    coordinate = np.empty(length)    # array to contain coordinate for that section
-    signx = xi
-    signy = yi
-    for i in range (length):
-        temp = data[:,layer,x0 + signx*i,y0 + signy*i]
-        temp = np.ma.masked_where(tmask[layer,x0 + signx*i,y0 + signy*i]< = 0,temp)
-        a[:,i] = temp
-        coordinate[i] = lon[x0 + signx*i,y0 + signy*i]
-    return a,coordinate
+
+    temp = data[:,layer,indexa,indexb]
+    temp = np.ma.masked_where(tmask[layer,indexa,indexb]< = 0,temp)
+
+    coordinate = nav_lon[a,b]
+    return temp,coordinate
 
 
 
@@ -100,26 +98,24 @@ def crossS_vel_hov(layer,length,x0,y0,xi,yi):
                  (If choose floats, index could be floats as well but it will round to nearest integer)
 
     '''
-    a = np.empty([length]);             # array to restore cross-section data (for just one time step)
-    coordinate = np.empty(length)       # array to contain coordinate for that section
-
-
+    
     signx = xi;signy = yi
     zi = (yi**2 + xi**2)**0.5
-    hold = np.empty([yearnum,length]);  # array to hold cross-section data over the model period
+    
+    temp = np.empty([yearnum,length]);  # array to hold cross-section data over the model period
+    
     for j in range (yearnum):
         u = vel(keyword = 'U',T = 1958 + j,ENG = 'ENG3')[layer,:,:]
         v = vel(keyword = 'V',T = 1958 + j,ENG = 'ENG3')[layer,:,:]
         
-        for i in range (length):
-                # u,v --> cross-section velocity
-                temp = u[x0 + signx*i,y0 + signy*i]*yi/zi - v[x0 + signx*i,y0 + signy*i]*xi/zi
-                # mask
-                temp = np.ma.masked_where(tmask[layer,x0 + signx*i,y0 + signy*i]< = 0,temp)
-                a[i] = temp
-                coordinate[i] = lon[x0 + signx*i,y0 + signy*i]
-        hold[j,:] = a[:]
-    return hold,coordinate
+        # u,v --> cross-section velocity
+        temp[j] = u[a,b]*yi/zi - v[a,b]*xi/zi
+        # mask
+        temp[j] = np.ma.masked_where(tmask[layer,a,b]< = 0,temp[j])
+
+    coordinate = nav_lon[a,b]
+                
+    return temp,coordinate
 
 
 def alongS_vel_hov(layer,length,x0,y0,xi,yi):
@@ -159,7 +155,21 @@ def alongS_vel_hov(layer,length,x0,y0,xi,yi):
     return hold,coordinate
 
 
-def vel(keyword,T,ENG = 'ENG3'):
+def vel(vel_comp,T, tmask, ENG = 'ENG3'):
+    '''
+    This function is designed to obtain velocity field
+    ======================================================
+    '''
+    vels ={'U':'vozocrtx','V':'vomecrty','W':'vovecrtz'}
+    
+    with nc.Dataset(glob.glob('/ocean/xiaoxiny/research/result_jasper/data_eng3/*%s*%s*%s.nc'%(ENG,vel_comp,T))[0]) as velocity:
+        data  = velocity.variables[vels[vel_comp]][0,:,400:,:]
+    data  = np.ma.masked_where(tmask == 0,data)
+    return data
+    
+    
+
+def vel_back_up(keyword,T, tmask, ENG = 'ENG3'):
     '''
     This function is designed to obtain velocity field
     ======================================================
@@ -173,16 +183,13 @@ def vel(keyword,T,ENG = 'ENG3'):
     type: ENG: string
     '''
     if keyword  == 'U':
-        nc_filename = sorted(glob.glob('/ocean/xiaoxiny/research/result_jasper/data_eng3/*%s*U*%s.nc'%(ENG,T)))
-        uvel = nc.Dataset(nc_filename[0])
-        data  = uvel.variables['vozocrtx'][0,:,400:,:]
+        with nc.Dataset(glob.glob('/ocean/xiaoxiny/research/result_jasper/data_eng3/*%s*U*%s.nc'%(ENG,T))[0]) as uvel:
+            data  = uvel.variables['vozocrtx'][0,:,400:,:]
     elif keyword  == 'V':
-        nc_filename = sorted(glob.glob('/ocean/xiaoxiny/research/result_jasper/data_eng3/*%s*V*%s.nc'%(ENG,T)))
-        vvel = nc.Dataset(nc_filename[0])
-        data  = vvel.variables['vomecrty'][0,:,400:,:]
+        with nc.Dataset(glob.glob('/ocean/xiaoxiny/research/result_jasper/data_eng3/*%s*V*%s.nc'%(ENG,T))[0]) as vvel:
+            data  = vvel.variables['vomecrty'][0,:,400:,:]
     else:
-        nc_filename = sorted(glob.glob('/ocean/xiaoxiny/research/result_jasper/data_eng3/*%s*W*%s.nc'%(ENG,T)))
-        wvel = nc.Dataset(nc_filename[0])
-        data  = wvel.variables['vovecrtz'][0,:,400:,:]
+        with nc.Dataset(glob.glob('/ocean/xiaoxiny/research/result_jasper/data_eng3/*%s*W*%s.nc'%(ENG,T))[0]) as wvel:
+            data  = wvel.variables['vovecrtz'][0,:,400:,:]
     data  = np.ma.masked_where(tmask == 0,data)
     return data
